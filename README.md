@@ -10,7 +10,7 @@ Hadoop is the solution to above Big Data problems. It is the technology to store
 It is an open-source software developed as a project by Apache Software Foundation. Doug Cutting created Hadoop. In the year 2008 Yahoo gave Hadoop to Apache Software Foundation. Since then two versions of Hadoop has come. Version 1.0 in the year 2011 and version 2.0.6 in the year 2013. 
 
 
-Why Hadoop is Important ?
+## Why Hadoop is Important ?
 
 In today’s fast-paced world we hear a term – Big Data. Nowadays various companies collect data posted online. This unstructured data found on websites like Facebook, Instagram, emails etc comprise Big Data. Big Data demands a cost-effective, innovative solution to store and analyze it. Hadoop is the answer to all Big Data requirements. So, let’s explore why Hadoop is so important. 
 
