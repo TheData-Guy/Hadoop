@@ -14,13 +14,13 @@ It is an open-source software developed as a project by Apache Software Foundati
 
 In today’s fast-paced world we hear a term – Big Data. Nowadays various companies collect data posted online. This unstructured data found on websites like Facebook, Instagram, emails etc comprise Big Data. Big Data demands a cost-effective, innovative solution to store and analyze it. Hadoop is the answer to all Big Data requirements. So, let’s explore why Hadoop is so important. 
 
-- Managing Big Data 
-  * As we are living in the digital era there is a data explosion. The data is getting generated at a very high speed and high volume. So there is an increasing need to manage this Big Data. As we can see from the below chart chart that the volume of unstructured data is increasing exponentially. Therefore in order to manage this ever-increasing volume of data, we require Big Data technologies like Hadoop.
+### Managing Big Data 
+- As we are living in the digital era there is a data explosion. The data is getting generated at a very high speed and high volume. So there is an increasing need to manage this Big Data. As we can see from the below chart chart that the volume of unstructured data is increasing exponentially. Therefore in order to manage this ever-increasing volume of data, we require Big Data technologies like Hadoop.
  
  
-       ![](https://www.datanami.com/wp-content/uploads/2022/01/DataSphere.png)
+     ![](https://www.datanami.com/wp-content/uploads/2022/01/DataSphere.png)
  
- - Exponential Growth of Big Data Market 
-  * The Big Data Market size was valued at USD 162.6 billion in 2021 and is projected to grow 273.4 USD billion by 2026, at a Compound Annual Growth Rate (CAGR) of 11.0% during the forecast period.
+### Exponential Growth of Big Data Market 
+- The Big Data Market size was valued at USD 162.6 billion in 2021 and is projected to grow 273.4 USD billion by 2026, at a Compound Annual Growth Rate (CAGR) of 11.0% during the forecast period.
     
-      ![](https://www.marketsandmarkets.com/Images/big-data-market.jpg)
+     ![](https://www.marketsandmarkets.com/Images/big-data-market.jpg)
