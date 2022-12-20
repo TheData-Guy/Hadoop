@@ -26,3 +26,9 @@ In today’s fast-paced world we hear a term – Big Data. Nowadays various comp
      ![](https://www.marketsandmarkets.com/Images/big-data-market.jpg)
      
 As the market for Big Data grows there will be a rising need for Big Data technologies. Hadoop forms the base of many big data technologies. The new technologies like Apache Spark and Flink work well over Hadoop. As it is an in-demand big data technology, there is a need to master Hadoop. As the requirements for Hadoop professionals are increasing, this makes it a must to learn technology.
+
+
+###  Robust Hadoop Ecosystem
+- Hadoop has a very robust and rich ecosystem which serves a wide variety of organizations. Organizations like web start-ups, telecom, financial and so on are needing Hadoop to answer their business needs.
+
+     ![](https://www.oreilly.com/api/v2/epubs/9781788995092/files/assets/a64fec28-e2b2-42f0-96cf-098fe8385316.png)
