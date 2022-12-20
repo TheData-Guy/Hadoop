@@ -18,4 +18,4 @@ In today’s fast-paced world we hear a term – Big Data. Nowadays various comp
   - As we are living in the digital era there is a data explosion. The data is getting generated at a very high speed and high volume. So there is an increasing need to manage this Big Data. As we can see from the below chart chart that the volume of unstructured data is increasing exponentially. Therefore in order to manage this ever-increasing volume of data, we require Big Data technologies like Hadoop.
  
  
-          ![](https://www.datanami.com/wp-content/uploads/2022/01/DataSphere.png)
+       ![](https://www.datanami.com/wp-content/uploads/2022/01/DataSphere.png)
