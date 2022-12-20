@@ -24,3 +24,5 @@ In today’s fast-paced world we hear a term – Big Data. Nowadays various comp
 - The Big Data Market size was valued at USD 162.6 billion in 2021 and is projected to grow 273.4 USD billion by 2026, at a Compound Annual Growth Rate (CAGR) of 11.0% during the forecast period.
     
      ![](https://www.marketsandmarkets.com/Images/big-data-market.jpg)
+     
+As the market for Big Data grows there will be a rising need for Big Data technologies. Hadoop forms the base of many big data technologies. The new technologies like Apache Spark and Flink work well over Hadoop. As it is an in-demand big data technology, there is a need to master Hadoop. As the requirements for Hadoop professionals are increasing, this makes it a must to learn technology.
