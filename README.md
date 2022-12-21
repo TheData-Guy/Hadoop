@@ -93,3 +93,11 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 
 
 ## Hadoop Distributed File System(HDFS)
+
+- Hadoop Distributed File system – HDFS is the world’s most reliable storage system. HDFS is a Filesystem of Hadoop designed for storing very large files running on a cluster of commodity hardware. It is designed on the principle of storage of less number of large files rather than the huge number of small files.
+
+- Hadoop HDFS provides a fault-tolerant storage layer for Hadoop and its other components. HDFS Replication of data helps us to attain this feature. It stores data reliably, even in the case of hardware failure. It provides high throughput access to application data by providing the data access in parallel.
+
+ ### HDFS Core Components :
+ 
+ - NameNode : NameNode is the centerpiece of the Hadoop Distributed File System. It maintains and manages the file system namespace and provides the right access permission to the clients.
