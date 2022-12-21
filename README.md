@@ -67,5 +67,26 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 
 ## Features Of Hadoop That Made It The Most Popular :
 
-- Hadoop is Open Source 
+- Hadoop is Open Source. 
   * Hadoop is an open-source project, which means its source code is available free of cost for inspection, modification, and analyses that allows enterprises to modify the code as per their requirements.
+
+- Hadoop cluster is Highly Scalable.
+  * Hadoop cluster is scalable means we can add any number of nodes (horizontal scalable) or increase the hardware capacity of nodes (vertical scalable) to achieve high computation power. This provides horizontal as well as vertical scalability to the Hadoop framework.
+ 
+ - **Hadoop provides Fault Tolerance**.
+    * Fault tolerance is the most important feature of Hadoop. HDFS in Hadoop 2 uses a replication mechanism to provide fault tolerance.
+
+- Hadoop provides High Availability.
+  * This feature of Hadoop ensures the high availability of the data, even in unfavorable conditions. Due to the fault tolerance feature of Hadoop, if any of the DataNodes goes down, the data is available to the user from different DataNodes containing a copy of the same data.
+
+- Hadoop is Faster in Data Processing.
+  * Hadoop stores data in a distributed fashion, which allows data to be processed distributedly on a cluster of nodes. Thus it provides lightning-fast processing capability to the Hadoop framework.
+
+- Hadoop is based on Data Locality concept.
+  * Hadoop is popularly known for its data locality feature means moving computation logic to the data, rather than moving data to the computation logic. This features of Hadoop reduces the bandwidth utilization in a system.
+
+## Hadoop Core Components 
+ - Hadoop has Three Major Core Components :
+   *  Hadoop Distributed File System(HDFS).
+   *  MapReduce.
+   *  Yarn 
