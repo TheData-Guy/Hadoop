@@ -90,3 +90,6 @@ Hadoop framework handles all the parallel processing of the data at the back-end
    *  Hadoop Distributed File System(HDFS).
    *  MapReduce.
    *  Yarn 
+
+
+## Hadoop Distributed File System(HDFS)
