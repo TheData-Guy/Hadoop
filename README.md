@@ -53,5 +53,16 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 
 - The advent of Spark has enhanced the Hadoop ecosystem. The coming of Spark in the market has enriched the processing capability of Hadoop. Spark creators have designed it to work with Hadoop’s distributed storage system HDFS. It can also work over HBase and Amazon’s S3. Even if you work on Hadoop 1.x you can take advantage of Spark’s capabilities.
 
+### Hadoop has a Better Career Scope 
+
+- Hadoop excels in processing a wide variety of data. We have various components of Hadoop ecosystem providing batch processing, stream processing, machine learning, Big Data Analytics and so on. Learning it will open gates to a variety of job roles like:
+
+ * Big Data Migration Engineer.
+ * Big Data Backend Developer.
+ * Database Engineer.
+ * Big Data Architect.
+ * Hadoop Developer
+ * Cloud Data Engineer.
+
 
 
