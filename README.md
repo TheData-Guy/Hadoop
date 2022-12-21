@@ -100,8 +100,52 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 
  ### HDFS Core Components :
  
- #### NameNode 
- - NameNode is the centerpiece of the Hadoop Distributed File System. It maintains and manages the file system namespace and provides the right access permission to the clients.
+ #### 1. NameNode 
+ - NameNode is the centerpiece of the Hadoop Distributed File System. It maintains and manages the file system namespace and provides the right access permission to the clients.It is also Known as Master Node.
  - The NameNode stores information about blocks locations, permissions, etc. on the local disk in the form of two files:
    *  Fsimage: Fsimage stands for File System image. It contains the complete namespace of the Hadoop file system since the NameNode creation.
    * Edit log: It contains all the recent changes performed to the file system namespace to the most recent Fsimage. 
+ 
+ #### Functions of HDFS NameNode
+ - It executes the file system namespace operations like opening, renaming, and closing files and directories.
+ - NameNode manages and maintains the DataNodes.
+ - It determines the mapping of blocks of a file to DataNodes.
+ - NameNode records each change made to the file system namespace.
+ - It keeps the locations of each block of a file.
+ - NameNode takes care of the replication factor of all the blocks.
+ - NameNode receives heartbeat and block reports from all DataNodes that ensure DataNode is alive.
+ - If the DataNode fails, the NameNode chooses new DataNodes for new replicas.
+
+ #### 2.DataNode
+ - DataNodes are the slave nodes in Hadoop HDFS. DataNodes are inexpensive commodity hardware. They store blocks of a file.
+ - DataNode is responsible for serving the client read/write requests.
+ - Based on the instruction from the NameNode, DataNodes performs block creation, replication, and deletion.
+ - DataNodes send a heartbeat to NameNode to report the health of HDFS.
+ - DataNodes also sends block reports to NameNode to report the list of blocks it contains.
+ 
+###  What is Secondary NameNode?
+
+-  Secondary NameNode works as a helper node to primary NameNode but doesn’t replace primary NameNode.
+-  When the NameNode starts, the NameNode merges the Fsimage and edit logs file to restore the current file system namespace. Since the NameNode runs continuously for a long time without any restart, the size of edit logs becomes too large. This will result in a long restart time for NameNode.
+-  Secondary NameNode downloads the Fsimage file and edit logs file from NameNode.
+-  It periodically applies edit logs to Fsimage and refreshes the edit logs. The updated Fsimage is then sent to the NameNode so that NameNode doesn’t have to re-apply the edit log records during its restart. This keeps the edit log size small and reduces the NameNode restart time.
+
+- If the NameNode fails, the last save Fsimage on the secondary NameNode can be used to recover file system metadata. The secondary NameNode performs regular checkpoints in HDFS.
+
+
+### What are Blocks in HDFS Architecture?
+ 
+  ![](https://media.geeksforgeeks.org/wp-content/uploads/20200618125555/3164-1.png)
+
+- Internally, HDFS split the file into block-sized chunks called a block. The size of the block is 128 Mb by default. One can configure the block size as per the requirement.
+
+- For example, if there is a file of size 400 Mb, then HDFS will create Three blocks of size 128 Mb and one block of size 16 Mb.
+
+### What is Replication Management?
+ - For a distributed system, the data must be redundant to multiple places so that if one machine fails, the data is accessible from other machines.
+
+- In Hadoop, HDFS stores replicas of a block on multiple DataNodes based on the replication factor.
+
+- The replication factor is the number of copies to be created for blocks of a file in HDFS architecture.
+
+- If the replication factor is 3, then three copies of a block get stored on different DataNodes. So if one DataNode containing the data block fails, then the block is accessible from the other DataNode containing a replica of the block.
