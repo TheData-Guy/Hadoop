@@ -149,3 +149,56 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 - The replication factor is the number of copies to be created for blocks of a file in HDFS architecture.
 
 - If the replication factor is 3, then three copies of a block get stored on different DataNodes. So if one DataNode containing the data block fails, then the block is accessible from the other DataNode containing a replica of the block.
+
+## MapReduce
+
+- MapReduce is the processing layer of Hadoop. MapReduce programming model is designed for processing large volumes of data in parallel by dividing the work into a set of independent tasks. 
+
+### How does MapReduce works ?
+
+- MapReduce is a programming paradigm or model used to process large datasets with a parallel distributed algorithm on a cluster . In Big Data Analytics, MapReduce plays a crucial role. When it is combined with HDFS we can use MapReduce to handle Big Data.
+
+- The basic unit of information used by MapReduce is a key-value pair. All the data whether structured or unstructured needs to be translated to the key-value pair before it is passed through the MapReduce model.
+
+- MapReduce model as the name suggests has two different functions; Map-function and Reduce-function. The order of operation is always Map|Shuffle|Reduce.
+
+   ![](https://k21academy.com/wp-content/uploads/2021/10/Presentation1.jpg)
+
+
+ ####  Map stage 
+ - Map stage is the crucial step in the MapReduce framework. Mapper will give a structure to the unstructured data. For example, if I have to count the songs and music files in my laptop as per genre in my playlist, I will have to analyze the unstructured data. The mapper makes key-value pairs from this dataset. So, in this case, the key is genre and value is the music file. Once all this data is given to the mapper, we have a whole dataset ready with the key-value pair structure.
+
+- So the mapper will work on one key-value pair at a time. One input may produce any number of outputs. Basically, Map-function will process the data and make several small chunks of data.
+
+#### Reducer Stage :
+ 
+- The Shuffle stage and the Reduce stage together are called the Reduce stage. Reducer will take the output from the mapper as an input and make the final output as specified by the programmer. This new output will be saved to the HDFS. The Reducer will take all the key-value pairs from the mapper and check the association of all keys with value. All the values associated with a single key will be taken and it will provide an output of any number of key-value pairs.
+- By understanding the Map and Reduce stages, we understand that MapReduce is a sequential computation. For any Reducer to work, the Mapper must have completed the execution. If that is not the case, the Reducer stage won’t run. Since, the Reducer will have access to all the values, we can say that it will find all values with the same key and perform computations on them. So what actually happens is, since reducers are working on different keys, they are made to work simultaneously and parallelism is achieved.
+
+
+## Yet Another Resource Negotiator (Yarn)
+- Apache Yarn – “Yet Another Resource Negotiator” is the resource management layer of Hadoop. The Yarn was introduced in Hadoop 2.x.
+
+- Yarn allows different data processing engines like graph processing, interactive processing, stream processing as well as batch processing to run and process data stored in HDFS (Hadoop Distributed File System). Apart from resource management, Yarn also does job Scheduling.
+
+- Yarn extends the power of Hadoop to other evolving technologies, so they can take the advantages of HDFS (most reliable and popular storage system on the planet) and economic cluster. To learn installation of Apache Hadoop 2 with Yarn follows this quick installation guide.
+
+- Apache yarn is also a data operating system for Hadoop 2.x. This architecture of Hadoop 2.x provides a general purpose data processing platform which is not just limited to the MapReduce.
+
+- It enables Hadoop to process other purpose-built data processing system other than MapReduce. It allows running several different frameworks on the same hardware where Hadoop is deployed.
+
+### Yarn Architecture
+
+  ![](https://www.edureka.co/blog/wp-content/uploads/2018/06/Components-of-YARN-1.png)
+ 
+ #### Resource Manager
+ 
+  - It is the master daemon of Yarn. Resource Manager manages the global assignments of resources (CPU and memory) among all the applications. It arbitrates system resources between competing applications.
+
+ #### Node Manager 
+ 
+ - It is the slave daemon of Yarn. NM is responsible for containers monitoring their resource usage and reporting the same to the ResourceManager. Manage the user process on that machine. Yarn NodeManager also tracks the health of the node on which it is running. The design also allows plugging long-running auxiliary services to the NM; these are application-specific services, specified as part of the configurations and loaded by the NM during startup.
+
+#### Application Master 
+
+- One application master runs per application. It negotiates resources from the resource manager and works with the node manager. It Manages the application life cycle.
