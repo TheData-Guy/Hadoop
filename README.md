@@ -103,4 +103,5 @@ Hadoop framework handles all the parallel processing of the data at the back-end
  - NameNode 
    * NameNode is the centerpiece of the Hadoop Distributed File System. It maintains and manages the file system namespace and provides the right access permission to the clients.
    * The NameNode stores information about blocks locations, permissions, etc. on the local disk in the form of two files:
-      * 
+    - Fsimage: Fsimage stands for File System image. It contains the complete namespace of the Hadoop file system since the NameNode creation.
+    - Edit log: It contains all the recent changes performed to the file system namespace to the most recent Fsimage. 
