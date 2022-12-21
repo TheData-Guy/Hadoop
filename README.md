@@ -45,7 +45,13 @@ Hadoop framework handles all the parallel processing of the data at the back-end
 - There is no industry where Big Data has not reached. Big Data has covered almost all domains like healthcare, retail, government, banking, media, transportation, natural resources and so on.
 
    ![](https://1.bp.blogspot.com/-Wu1iCYTv-U4/Xj2uAFpLw0I/AAAAAAAADow/1JErQq1K7og2wZYDxIDr_cLtfXsgaTE9QCLcBGAsYHQ/s1600/Applications-of-big-data-in-real-life.jpg)
-   
+
+
+### A Maturing Technolog 
+
+- Hadoop is evolving with time. The new version of Hadoop i.e. Hadoop 3.0 is coming into the market. It has already collaborated with HortonWorks, Tableau, MapR, and even BI experts to name a few. New actors like Spark, Flink etc. are coming on the Big Data stage. These technologies promise the lightening speed of processing. These technologies also provide a single platform for various kinds of workloads. It is compatible with these new players. It provides robust data storage over which we can deploy technologies like Spark and Flink.
+
+- The advent of Spark has enhanced the Hadoop ecosystem. The coming of Spark in the market has enriched the processing capability of Hadoop. Spark creators have designed it to work with Hadoop’s distributed storage system HDFS. It can also work over HBase and Amazon’s S3. Even if you work on Hadoop 1.x you can take advantage of Spark’s capabilities.
 
 
 
