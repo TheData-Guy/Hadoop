@@ -65,4 +65,7 @@ Hadoop framework handles all the parallel processing of the data at the back-end
  * Cloud Data Engineer.
 
 
+## Features Of Hadoop That Made It The Most Popular :
 
+- Hadoop is Open Source 
+ * Hadoop is an open-source project, which means its source code is available free of cost for inspection, modification, and analyses that allows enterprises to modify the code as per their requirements.
