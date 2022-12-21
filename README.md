@@ -32,3 +32,20 @@ As the market for Big Data grows there will be a rising need for Big Data techno
 - Hadoop has a very robust and rich ecosystem which serves a wide variety of organizations. Organizations like web start-ups, telecom, financial and so on are needing Hadoop to answer their business needs.
 
      ![](https://www.oreilly.com/api/v2/epubs/9781788995092/files/assets/a64fec28-e2b2-42f0-96cf-098fe8385316.png)
+     
+### Research Tool
+- Hadoop has come up as a powerful research tool. It allows an organization to find answers to their business questions. Hadoop helps them in research and development work. Companies use it to perform the analysis. They use this analysis to develop a rapport with the customer.Applying Big Data techniques improve operational effectiveness and efficiencies of generating great revenue in business. It brings a better understanding of the business value and develops business growth. Communication and distribution of information between different companies are feasible via big data analytics and IT techniques. 
+
+### Ease of Use 
+- Creators of Hadoop have written it in Java, which has the biggest developer community. Therefore, it is easy to adapt by programmers. You can have the flexibility of programming in other languages too like C, C++, Python, Perl, Ruby etc. If you are familiar with SQL, it is easy to use HIVE. If you are ok with scripting then PIG is for you. 
+
+Hadoop framework handles all the parallel processing of the data at the back-end. We need not worry about the complexities of distributed processing while coding. We just need to write the driver program, mapper and reducer function. Hadoop framework takes care of how the data gets stored and processed in a distributed manner. After Spark Processing Framework it becomes More Eaiser.
+
+### Hadoop is Presend Everywhere
+- There is no industry where Big Data has not reached. Big Data has covered almost all domains like healthcare, retail, government, banking, media, transportation, natural resources and so on.
+
+   ![](https://1.bp.blogspot.com/-Wu1iCYTv-U4/Xj2uAFpLw0I/AAAAAAAADow/1JErQq1K7og2wZYDxIDr_cLtfXsgaTE9QCLcBGAsYHQ/s1600/Applications-of-big-data-in-real-life.jpg)
+   
+
+
+
